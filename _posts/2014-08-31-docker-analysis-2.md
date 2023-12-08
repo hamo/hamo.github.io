@@ -2,9 +2,9 @@
 title: "Docker源码分析2-daemon启动"
 date: 2014-08-31T12:30+08:00
 categories:
-  - golang
   - docker
 tags:
+  - golang
   - docker
 ---
 

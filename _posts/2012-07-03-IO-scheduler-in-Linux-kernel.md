@@ -2,7 +2,6 @@
 title: "Linux内核中的IO调度器简介"
 date: 2012-07-03T13:45+08:00
 categories:
-  - linux
   - kernel
 tags:
   - linux

@@ -2,9 +2,9 @@
 title: "Docker源码分析1-简介"
 date: 2014-08-29T17:31+08:00
 categories:
-  - golang
   - docker
 tags:
+  - golang
   - docker
 ---
 

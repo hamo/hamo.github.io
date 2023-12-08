@@ -2,9 +2,9 @@
 title: "Docker源码分析3-daemon启动（API）"
 date: 2014-09-12T17:30+08:00
 categories:
-  - golang
   - docker
 tags:
+  - golang
   - docker
 ---
 在该系列的
