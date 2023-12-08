@@ -9,7 +9,7 @@ tags:
 ---
 
 在该系列的
-[上一篇文章](http://blog.hamobai.com/2014/08/31/docker-analysis-1/)中，
+[上一篇文章](/docker/2014/08/29/docker-analysis-1/)中，
 我们简单介绍了Docker的基本信息。在这篇文章中，我们将详细分析Docker
 daemon的启动代码。从这篇文章开始，我将用```$SRC```指代Docker源码所在的
 目录。
@@ -112,7 +112,7 @@ API可以接受新连接。这样即可加快启动的速度，同时也可以�
 接受API连接时，daemon处于就绪状态。
 
 我们将会在
-[下一篇文章](http://blog.hamobai.com/2014/09/12/docker-analysis-3/)中
+[下一篇文章](/docker/2014/09/12/docker-analysis-3/)中
 详细介绍daemon服务和RESTful API服务的启动过程。
 
 [1]http://golang.org/ref/spec#Package_initialization

@@ -23,4 +23,4 @@ container技术更轻量，所有容器运行在Host的内核上，共享Host的
 目在github的[页面](https://github.com/dotcloud/docker)获取到该项目的源
 代码。
 
-[下一篇](http://blog.hamobai.com/2014/08/31/docker-analysis-2/)，我们将首先对Docker daemon的启动代码进行分析。
+[下一篇](/docker/2014/08/31/docker-analysis-2/)，我们将首先对Docker daemon的启动代码进行分析。

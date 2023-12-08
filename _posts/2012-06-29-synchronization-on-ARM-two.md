@@ -7,7 +7,7 @@ categories:
 tags:
   - ARM
 ---
-在[上一篇文章](/2012/06/28/synchronization-on-ARM-one "ARM体系架构下的同步操作（一）")中，我们介绍了ARM体系架构下，为了实现对内存地址同步访问而引入的
+在[上一篇文章](/arm/2012/06/28/synchronization-on-ARM-one/ "ARM体系架构下的同步操作（一）")中，我们介绍了ARM体系架构下，为了实现对内存地址同步访问而引入的
     LDREX
     STREX
 两条指令。在这篇文章里，首先会以Linux Kernel中ARM架构的原子相加操作为例，介绍这两条指令的使用方法；之后，会介绍GCC提供的一些内置函数，这些同步函数使用这两条指令完成同步操作。

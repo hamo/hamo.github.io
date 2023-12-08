@@ -8,7 +8,7 @@ tags:
   - docker
 ---
 在该系列的
-[上一篇文章](http://blog.hamobai.com/2014/08/31/docker-analysis-2/)中，
+[上一篇文章](/docker/2014/08/31/docker-analysis-2/)中，
  我们介绍了Docker daemon启动流程的前半部分，后半部分的代码会完成daemon
  启动中最重要的两个步骤：
 
@@ -91,7 +91,7 @@ router生成之后，会利用它和之前传递的监听地址来初始化```ht
 daemon的API便初始化完成。在运行"acceptconnections"命令之后，daemon的
 API便可接受外部连接来响应client的请求了。
 
-在[下一篇文章](http://blog.hamobai.com/2014/09/20/docker-analysis-4/)
+在[下一篇文章]()
 中，我们将开始介绍Docker daemon最重要的Daemon结构的初始化，它包含了
 docker网桥、containers repo、images graph、volumes graph、repository
 list以及execDriver等的初始化。
